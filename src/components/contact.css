@@ -1,0 +1,68 @@
+.common-heading{
+    height: 14rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  
+}
+.contact{
+    
+    height: 2.7rem;
+    width: 3rem;
+    padding-top: 5px;
+    text-align: right;
+    display: inline-block;
+    position: relative;
+       top: 5px;
+       left:8px;
+}
+.mail{
+
+    height: 2rem;
+    width: 3rem;
+    text-align: right;
+    display: inline-block;
+    position: relative;
+       top: 5px;
+       left:8px;
+
+    
+}
+.app-contact {
+  margin: 1rem;
+    margin-top: auto;
+    font-size: 20px;
+    color: #171616;
+    display: inline-block;
+    padding-bottom: 1px;
+
+    
+  }
+  .app-mail {
+    margin: 1rem;
+      margin-top: auto;
+      font-size: 20px;
+      color: #171616;
+      display: inline-block;
+      padding-bottom: 1px;
+  
+      
+    }
+
+.mlit{
+
+      font-size: 20px;
+      color: #171616;
+      position: relative;
+      left: 235px;
+      bottom:15px;
+      top:3px; 
+}
+.clit{
+    font-size: 20px;
+      color: #171616;
+      position: relative;
+      left: 200px;
+      top:10px;
+}

@@ -1,0 +1,34 @@
+ .Tabcontents ul li{
+    list-style : none;
+    margin:10px 0;
+ }
+.Tabcontents{
+    display:none;
+}
+.Tabcontents.activetab{
+   display: block; 
+}
+.Tablinks{
+    margin-right:50px;
+    font-size:18px;
+    font-weight:500;
+    cursor:pointer;
+    position:relative;
+}
+.Tablinks::after{
+    content:'';
+    width:0;
+    height:3px;
+    background:#ff004f;
+    position: absolute;
+    left:0;
+    bottom:-8px;
+    transition:0.5s;
+}
+.Tablinks.active-link::after{
+    width:50%;
+} 
+h3{
+    font-Size:15px;
+    font-Weight:500
+}
